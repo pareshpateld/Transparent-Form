@@ -1,0 +1,97 @@
+body
+{
+	margin: 0;
+	padding:0;
+	background:url(../images/armenia.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.loginBox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	height: 520px;
+	box-sizing: border-box;
+	background:rgba(0,0,0,.6);
+	padding: 45px 30px;
+}
+.user
+{
+	height: 100px;
+	width:100px;
+	border-radius: 50%;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+	overflow: hidden;
+}
+
+h2
+{
+	margin:0;
+	padding: 0;
+	color: #efed40;
+	text-align: center;
+}
+
+.loginBox p
+{
+	margin:0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+
+.loginBox input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+	border:none;
+	background:transparent;
+	outline: none;
+	border-bottom: 2px solid #fff;
+	height: 35px;
+	color: #fff;
+	font-size: 16px;
+}
+
+::placeholder
+{
+	color: silver;
+}
+
+.loginBox input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background:#ff267e;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+.loginBox input[type="submit"]:hover
+{
+	background:#efed40;
+	color: #262626;
+}
+
+span
+{
+	float: right;
+	color: #7affd5;
+	font-weight: normal;
+}

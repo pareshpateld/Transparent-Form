@@ -1,0 +1,44 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transparent Login Form</title>
+	<link rel="stylesheet" type="text/css" href="style/myStyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script/myScript.js"></script>
+	
+		
+
+	
+
+</head>
+<body onload="myObjectLoad()">
+		<div class="loginBox">
+			<img src="images/user.png" class="user">
+			<h2>Sign up Here</h2>
+			<form action="index.html" name="vform" onsubmit=" return Function()">
+
+				<p>First Name * <span id="fname_error"></span></p>
+				<input type="text" name="fname" placeholder="Enter Firstname">
+				
+				<p>Email *<span id="email_error"></span></p>
+				<input type="text" name="email" placeholder="Enter Email">
+
+				<p>Password *<span id="password_error"></span></p>
+				<input type="Password" name="password" placeholder="**********">
+
+				<p>Confirm Password *<span id="cpassword_error"></span></p>
+				<input type="Password" name="cpassword" placeholder="**********">
+
+				<p>Phone *<span id="phone_error"></span></p>
+				<input type="text" name="phone" placeholder="Enter phone number">
+
+
+				<input type="submit" name="" value="Sign up"" >
+				
+			</form>
+
+		</div>
+
+</body>
+</html>
